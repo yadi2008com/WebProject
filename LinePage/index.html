@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>      
+      <meta charset="utf-8" />
+      <title>直线网</title>
+      <meta name="description" content="#" />
+      <meta name="author" content="陈雅迪" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+      <link href="css/index.css" type="text/css" rel="stylesheet">
+      <script src="scripts/jquery.min.js" type="text/javascript" charset="utf-8" language="javascript"></script>
+      <link href="css/global.css" rel="stylesheet" type="text/css" charset="utf-8">
+      <!--head icons-->
+      <link href="css/icons.css" rel="stylesheet" type="text/css" charset="utf-8">
+	  <script src="scripts/jquery.min.js" type="text/javascript" charset="utf-8" language="javascript"></script>
+	  <script src="scripts/formCheck.js" type="text/javascript" charset="utf-8" language="javascript"></script>
+      <!-- 视频播放弹框 start --> 
+	  <!--head icons-->
+	  <script src="scripts/jquery.fancybox-1.3.4.js" type="text/javascript" charset="utf-8" language="javascript"></script>
+	  <link href="css/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" charset="utf-8">
+      <!-- 视频播放弹框 end --> 
+
+</head>
+<body >
+		<div id="wrap">
+               <!--header begin-->
+        		<div id="header">
+                	  <div class="header_logo">
+                        <!--icons begin-->
+                        
+                          <div class="top f_12">
+                                    <div class="f_r m_r20"> 
+                                    <a href="#" class="a_k m_l10" target="_blank" title="企业培训"><img src="images/head_icon1.png">&nbsp;企业培训</a> <span id="qqShow" class="a_k m_l10 showDialog" onclick="javascript:window.open(&#39;http://wpa.b.qq.com/cgi/wpa.php?ln=1&amp;key=XzkzODA3NjYwOF8yNTE3NDVfNDAwNjMyMDA1MV8yXw&#39;, &#39;_blank&#39;, &#39;height=544px, width=644px,toolbar=no,scrollbars=no,menubar=no,status=no&#39;);" target="_blank"><img src="images/head_icon2.png">&nbsp;在线咨询
+                                    <div id="qqShowDiv">
+                                    <a href="javascript:void(0)" class="btn_a_top"><font class="f_l">立即咨询</font><font class="f_r">&gt;</font></a>
+                                    </div>
+                                    </span> 
+                                    <span id="weiboShow" class="a_k m_l10 showDialog"><img src="images/head_icon3.png">&nbsp;微博
+                                        <div id="weiboShowDiv">
+                                        <a href="#" rel="nofollow" class="btn_a_top" target="_blank">
+                                        <font class="f_l">+关注</font><font class="f_r">&gt;</font>
+                                        </a>
+                                        </div>
+                                     </span>
+                                          <a href="javascript:void(0)" id="weixinShow" rel="nofollow" class="a_k m_l10 showDialog">
+                                            <img src="images/head_icon4.png">&nbsp;微信
+                                            <div id="weixinShowDiv"><img src="images/weixin.png"></div>
+                                          </a> 
+                                      
+                                    </div>
+                                        <div class="f_r">  
+                                            <a href="#" class="a_k m_l10" target="_blank" title="登录">登录</a> 
+                                            <a href="#" class="a_k m_l10" target="_blank" title="注册">注册</a>  
+                                        </div><!--f_r end-->
+                      </div><!--icons end-->
+        					
+      
+                      		
+                            <div class="logo">
+                            		<a href=""><img src="images/logo.png"/></a>
+                            </div><!--logo end-->
+                      </div><!--header logo end-->
+                       <div class="video_play" id="example" status="no" href="#example_video_1"></div><!--video-->
+                      <div class="header_login">
+                      		<div class="header_login1"></div>
+                            <div class="header_login2">
+                      		<div class="header_loginTitle">
+                                   <img src="images/loginTitle.png">
+                                   <div class="header_loginTitleTel">
+                            	  <p>
+                                  		<img src="images/tel.png"><span>400-056-9860</span>
+                                  </p>
+                                  </div>
+                            </div>
+                            <div class="clear"></div>
+                            <form>
+                            	 <ul> 
+                                       <li>
+                                 		<input type="text" name="user_name" placeholder="请填写名字" check="">
+                                <span style="display:none;">请填写名字</span>
+                                    	</li>
+                                         <li>
+                                 		<input type="text" name="user_qq" placeholder="请填写QQ" check="">
+                                <span style="display:none;">请填写QQ</span>
+                                    	</li>
+                                        <li>
+                                 		<input type="text" name="user_email" placeholder="请填写邮箱" check="">
+                                <span style="display:none;">请填写邮箱</span>
+                                    	</li>
+                                        <li id="li_btn1">
+                              		    <input type="button" value="免费领取试学名额" submit="">
+                             		    </li> 
+                              			<li id="li_btn2">
+                                		<input type="button" value="仅剩11个名额" submit="">
+                              			</li>
+                              
+                                 </ul>
+                            </form>
+                            </div>
+                            <div class="header_login3"></div>
+                      </div><!--header_login end-->
+                      
+                </div>
+                <!--header end-->
+                <!--bodyer begin-->
+                <div id="bodyer">
+                		<div class="main">
+    <div class="menuList" id="skip" style="width:1220px;">
+          <div class="content">
+                    <ul class="title_ul">
+                      <li class="ClickTag hover"><a href="javascript:void(0)" tag="one">报名流程</a></li>
+                      <li class="ClickTag "><a href="javascript:void(0)" tag="two">讲师介绍</a></li>
+                      <li class="ClickTag"><a href="javascript:void(0)" tag="three">课程内容</a></li>
+                      <li class="ClickTag "><a href="javascript:void(0)" tag="four">学员作品</a></li>
+                    </ul>
+          </div>
+    </div>
+  </div>
+  
+                  <!-- 切换1 -->
+                  <div id="one" class="main skipTab" style="display: none;">
+                    <div class="content">
+                      <div class="w_940">
+                          	 <div class="one_apply">
+                             		报名上课流程：<span>填写信息&nbsp;&nbsp;<span>- </span>&gt;&nbsp;&nbsp;申请名额&nbsp;&nbsp;<span>- </span>&gt;&nbsp;&nbsp;手机验证 &nbsp;&nbsp;<span>- </span>&gt;&nbsp;&nbsp;报名成功</span>
+                             </div>
+                             <div class="one_content">
+                             		<div class="one_contentMain">
+                                    		<div class="one_contentMainImg">
+                                    				<img src="images/1_03.jpg">
+                                    		</div>
+                                            <div class="one_contentMainInfo">
+                                    				<div class="one_contentMainInfo1">
+                                    						<span>填写信息</span></br>
+                                                            <p>填写你的相关信息，以便老师及时的能联系到您，了解你的基础</p>
+                                    				</div>
+                                                    <div class="one_contentMainInfo2">
+                                    						<span>申请名额&nbsp;手机验证</span></br>
+                                                            <p>手机验证，确定真实名额，并且我们将会短信提醒上课</p>															<ul>
+                                                            	<li><img src="images/1_04.jpg"></li>
+                                                                <li><img src="images/1_05.jpg"></li>
+                                                                <li><img src="images/1_06.jpg"></li>
+                                                            </ul>
+                                    				</div>
+                                                    <div class="one_contentMainInfo3">
+                                    						<span>报名成功</span></br>
+                                                            <p>确实名额，老师会尽快联系学员！</p>
+                                    				</div>
+                                    		</div>
+                                    </div>
+                                    <div class="clear"></div>
+                                    
+                                    <div class="one_contentBegin">
+                                    		开始快速提高你的技术水平 <a href="#">现在就开始！&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&gt;</a>
+                                    </div>
+                             </div>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <!-- 切换2 -->
+                  <div id="two" class="skipTab" style="display: none;">
+                    <div class="main">
+                      <div class="content">
+                        <div class="w_940">
+                          		<h2>讲师介绍</h2>
+                                <div class="two_contentIntroWrap">
+                                <div class="two_contentIntro">
+                                <img src="images/eg.jpg">
+                                <div class="two_contentIntroMain">
+                                <h2>主讲老师：111</h2></br>
+                                <p>
+                                介绍GhostXuan(金轩)主要负责三维特效中maya的解决方案和制作。是G.E（影视特效工作室）的组建者。曾参与过多部电影电视剧的制作，对maya的fluid模块有很独特的研究和丰富的经验。也曾在多个企业内部为企业员工培训。具有很丰富的制作经验和大量的实战解决方案。</p>
+                                </div>
+                                </div>
+                                </div>
+                                <h2>讲师教程</h2>
+                                <div class="two_contentCourse">
+                                 		<div id="vertical" class="brand vertical">
+                                            <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                               <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                            
+                                               <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                            
+                                               <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                            
+                                               <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                            
+                                               <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                            
+                                            
+                                             <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                               <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                            
+                                               <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                            
+                                               <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                            
+                                               <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                            
+                                               <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                            
+                                            
+                                            
+                                        </div>
+                                </div><!--two_contentCourse end-->
+                                <h2>讲师作品<span>（部分内容）</span></h2>
+                                <div class="two_contentWork">
+                                 		<embed SRC="http://www.iqiyi.com/yule/KimWooBin2015FM.html?src=focustext_55_20130527_1" autostart=false loop=false ></embed>					
+                                </div><!--two_contentWork end-->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <!-- 切换3 -->
+                  <div id="three" class="main skipTab">
+                    <div class="content">
+                      <div class="w_940">
+                            <h2>直线网&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;试学课程&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;免费名额等你拿</h2> 
+                            
+                            <ul class="course_icons">
+                            	<li><img src="images/course_icons1.png"><span>系统深入</span>
+                                </li>
+                                <li><img src="images/course_icons2.png"><span>专业权威</span>
+                                </li>
+                                <li><img src="images/course_icons3.png"><span>准确清晰</span>
+                                </li>
+                                <li><img src="images/course_icons4.png"><span>高效领先</span>
+                                </li>
+                            </ul>
+                            <div class="course">
+                            	   <div class="course_eg">
+                                      <img src="images/eg.jpg" >
+                                        <div class="course_egContent">
+                                        <a href=""><h3>基础培训</h3> </a>
+                                         <span>
+                                        且对应选择器样式为"clear:both"，然后我们在父级""结束前加此div引入"class="clea且对应选择器样式为"clear:both"，然后我们在父级""结束前加此div引入"class="clear""样式。这样即可清除浮动清除浮动</span>
+                                        </div>
+                                  </div>
+                                  <div class="course_eg">
+                                      <img src="images/eg.jpg" >
+                                        <div class="course_egContent">
+                                        <a href=""><h3>基础培训</h3> </a>
+                                         <span>
+                                        且对应选择器样式为"clear:both"，然后我们在父级""结束前加此div引入"class="clea且对应选择器样式为"clear:both"，然后我们在父级""结束前加此div引入"class="clear""样式。这样即可清除浮动清除浮动</span>
+                                        </div>
+                                  </div>
+                                  <div class="course_eg">
+                                      <img src="images/eg.jpg" >
+                                        <div class="course_egContent">
+                                        <a href=""><h3>基础培训</h3> </a>
+                                         <span>
+                                        且对应选择器样式为"clear:both"，然后我们在父级""结束前加此div引入"class="clea且对应选择器样式为"clear:both"，然后我们在父级""结束前加此div引入"class="clear""样式。这样即可清除浮动清除浮动</span>
+                                        </div>
+                                  </div>
+                                  <div class="course_eg">
+                                      <img src="images/eg.jpg" >
+                                        <div class="course_egContent">
+                                        <a href=""><h3>基础培训</h3> </a>
+                                         <span>
+                                        且对应选择器样式为"clear:both"，然后我们在父级""结束前加此div引入"class="clea且对应选择器样式为"clear:both"，然后我们在父级""结束前加此div引入"class="clear""样式。这样即可清除浮动清除浮动</span>
+                                        </div>
+                                  </div>
+                                  <div class="course_eg">
+                                      <img src="images/eg.jpg" >
+                                        <div class="course_egContent">
+                                        <a href=""><h3>基础培训</h3> </a>
+                                         <span>
+                                        且对应选择器样式为"clear:both"，然后我们在父级""结束前加此div引入"class="clea且对应选择器样式为"clear:both"，然后我们在父级""结束前加此div引入"class="clear""样式。这样即可清除浮动清除浮动</span>
+                                        </div>
+                                  </div>
+                                  <div class="course_eg">
+                                      <img src="images/eg.jpg" >
+                                        <div class="course_egContent">
+                                        <a href=""><h3>基础培训</h3> </a>
+                                         <span>
+                                        且对应选择器样式为"clear:both"，然后我们在父级""结束前加此div引入"class="clea且对应选择器样式为"clear:both"，然后我们在父级""结束前加此div引入"class="clear""样式。这样即可清除浮动清除浮动</span>
+                                        </div>
+                                  </div>
+                                  <div class="course_eg">
+                                      <img src="images/eg.jpg" >
+                                        <div class="course_egContent">
+                                        <a href=""><h3>基础培训</h3> </a>
+                                         <span>
+                                        且对应选择器样式为"clear:both"，然后我们在父级""结束前加此div引入"class="clea且对应选择器样式为"clear:both"，然后我们在父级""结束前加此div引入"class="clear""样式。这样即可清除浮动清除浮动</span>
+                                        </div>
+                                  </div>
+                                  <div class="course_eg">
+                                      <img src="images/eg.jpg" >
+                                        <div class="course_egContent">
+                                        <a href=""><h3>基础培训</h3> </a>
+                                         <span>
+                                        且对应选择器样式为"clear:both"，然后我们在父级""结束前加此div引入"class="clea且对应选择器样式为"clear:both"，然后我们在父级""结束前加此div引入"class="clear""样式。这样即可清除浮动清除浮动</span>
+                                        </div>
+                                  </div>
+                            </div><!--course eg end-->
+                            <div class="course_enter">
+                            		<a href="">进入课程详细介绍</a>
+                            </div>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <!-- 切换4 -->
+                  <div id="four" class="skipTab" style="display: none;">
+                    <div class="content">
+                      <div class="w_940" style="position:relative;">
+                             <b>直线网改变您的人生</b>
+                             <h2>优秀学员（已参加工作）</h2>
+                               <div class="student">
+                                 		<div id="horizontal" class="brand horizontal">
+                                            <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                               <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                            
+                                               <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                            
+                                               <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                            
+                                               <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                            
+                                               <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                            
+                                            
+                                             <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                               <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                            
+                                               <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                            
+                                               <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                            
+                                               <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                            
+                                               <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                            
+                                            
+                                            
+                                             <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                               <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                            
+                                               <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                            
+                                               <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                            
+                                               <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                            
+                                               <a target="_blank" href="#"><img alt="" src="images/eg.jpg" /><div class="info"><p>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：xxx</br>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位：我我我
+                                            </br>就职公司：dddd</br>薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;资：11111</p></div></a>
+                                            
+                                            
+                                            
+                                        </div>
+                                </div>
+                              <!--eg end--->
+                             <h2>优秀学员作品</h2>
+                             <div class="student_video">	
+                             		<embed SRC="http://www.iqiyi.com/yule/KimWooBin2015FM.html?src=focustext_55_20130527_1" autostart=false loop=false ></embed>					<embed SRC="http://www.iqiyi.com/yule/KimWooBin2015FM.html?src=focustext_55_20130527_1" autostart=false loop=false ></embed>
+                                    <embed SRC="http://www.iqiyi.com/yule/KimWooBin2015FM.html?src=focustext_55_20130527_1" autostart=false loop=false ></embed>
+                                    <embed SRC="http://www.iqiyi.com/yule/KimWooBin2015FM.html?src=focustext_55_20130527_1" autostart=false loop=false ></embed>
+                             </div>
+                             <div class="clear"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <!--bodyer end-->
+                
+        </div>
+        <div id="footer">
+                	<div class="footer_mian">
+                    		Copyright ? 2009-2014 直线教程,All Rights Reserved.沪ICP备10039589号
+                    </div>
+        </div>
+        <script type="text/javascript">
+    //配套教材
+    var oTips = $('');
+    $("body").append(oTips);
+    $(".usemap").on("mousemove",function(ev){
+      var sTips = ev.target.getAttribute("data-tips"),
+              x = ev.pageX,
+              y = ev.pageY;
+      if(oTips.html()!=sTips){
+        oTips.html(sTips).offset({top:y,left:x});
+      }
+      return false;
+    });
+
+    function selectTag(showContent, selfObj) {
+        //操作标签
+        var tag = document.getElementById("tags_ul").getElementsByTagName("li");
+        var taglength = tag.length;
+        for (i = 0; i < taglength; i++) {
+            tag[i].className = "";
+        }
+        selfObj.parentNode.className = "selectTag";
+        //操作内容
+        for (i = 0; j = document.getElementById("tagContent" + i); i++) {
+            j.style.display = "none";
+        }
+        document.getElementById(showContent).style.display = "block";
+    }
+
+    $(function(){
+        //Tag标签切换
+        $('.ClickTag > a').click(function(){
+            $(this).parent('li').siblings().removeClass('hover');
+            $(this).parent('li').addClass('hover');
+            $('.skipTab').hide();
+            $("#" + $(this).attr('tag')).show();
+        })
+    })
+</script>
+<script>
+	var tag_name_index = "summary";
+	var tag_name_userId= "0";
+    //初始化加载视频
+  
+    $(function(){
+
+        //视频点击
+        $("#example").click(function(){
+          var video_name = $(this).attr('href');
+          $.post('/user/ajax_add_videolog.php',{'video_name':video_name},function(){});
+        })
+        $("#example_two").click(function(){
+          var video_name = $(this).attr('href');
+          $.post('/user/ajax_add_videolog.php',{'video_name':video_name},function(){});
+        });
+
+        //初始化弹框
+        $("#example").fancybox({
+            'titlePosition':'inside',
+            'transitionIn':'none',
+            'scrolling':'no',
+            'overflow':'hidden',
+            'transitionOut':'none',
+            'onClosed':function(){
+                $(window).trigger('play');
+            }
+        });
+
+        $("#RegFormOne,#LoginForm").placeholder();
+        $("#RegFormOne").formCheck2("register");
+        $("#LoginForm").formCheck2("login");
+        
+        //提交登录
+        $("#submitLogin").click(function(){
+            var password = $("#password").val(),
+                user_name = $("#user_name").val();
+
+            if( user_name == '' || user_name == '已验证手机号/邮箱' ){
+                alert('请输入用户名');
+                return ;
+            }
+
+            if( password == '' || password == '请输入您的密码' ){
+                alert('请输入密码');
+                return ;
+            }
+            $("#LoginForm").submit();
+        })
+        
+        //网站头部导航
+        $('li.liMain').mousemove(function() {
+            $(this).css({'background': '#ffa800'})
+            $(this).find('ul').slideDown();
+        });
+        
+        $('li.liMain').mouseleave(function() {
+            var this_obj = $(this);
+            if(this_obj.find('ul').html() == null){
+                this_obj.css({'background': 'url(../../images/new_web/menu_bg.png) repeat-x'});
+            }else{
+                $('li.liMain').find('ul').slideUp("fast", function() {
+                    $('li.liMain').css({'background': 'url(../../images/new_web/menu_bg.png) repeat-x'});
+                });
+            }
+        });
+
+        //验证表单数据
+        $('#checkRegForm').click(function(){
+            if(NewCheckRegisterForm()){
+                setTimeout(function(){$('#RegFormOne').submit();},0);
+            }
+        });
+        
+        //显示QQ客服窗口与微博窗口
+        var is_open = [],is_close = [];
+        $(".showDialog").mouseover(function(){
+            var index = $(".showDialog").index(this);
+            var IdShow = $(this).attr('id');
+            clearTimeout(is_close[index]);
+            is_open[index] = setTimeout(function(){$("#"+IdShow + 'Div').slideDown();},100);
+        }).mouseout(function(){
+            var index = $(".showDialog").index(this);
+            var IdShow = $(this).attr('id');
+            clearTimeout(is_open[index]);
+            is_close[index] = setTimeout(function(){$("#"+IdShow + 'Div').slideUp();},100);
+        })
+        
+        //漂浮代码
+        $(".theFirst").mouseover(function(){
+            $(this).hide();
+            $(".theLast").animate({opacity: 'show'}, 500);
+        })
+        $(".theLast").mouseout(function(){
+             $(this).hide();
+            $(".theFirst").show();
+        })
+        
+        //漂浮代码
+        $(".theFirstTwo").mouseover(function(){
+            $(this).hide();
+            $(".theLastTwo").animate({opacity: 'show'}, 500);
+        })
+        $(".theLastTwo").mouseout(function(){
+            $(this).hide();
+            $(".theFirstTwo").show();
+        })
+
+        //计算图片数量
+        var strLength = $(".imgList").find('img').length;
+
+        var focuse = $("#focus2").mogFocus({
+            scrollWidth :1280,
+            loadAnimation : false,
+            time : 5000,
+            animationWay : 'fade',
+            btnStyle : 'noNumber',
+            prevNextToggle : "show",
+            thumCSS : {"right":"50%","top":578,"margin-right":-(29 * strLength)/2,"width":(29 * strLength)}
+        });
+        
+        //暂停轮播图
+        $(".focusSlide").click(function(){
+            var i = $(".imgBtn").find('.hover').index();
+
+		    if((tag_name_index=='index' && i==2) || (tag_name_index=='student' && i==0)){
+			    $(".btn_topa a").attr("href","/weekstar/index.php").html("了解更多详情，猛戳这里");
+		    }else{
+				$(".btn_topa a").attr("href","/user/user_register.php").html("立即注册，和Ta一起51Talk").css({"color":"","background":""});
+			}
+           $(window).trigger('stop');
+        })
+        
+        //显示左右切换
+        $(".header_all").mouseover(function(){
+           $(".prev").show();
+           $(".next").show();
+        })
+        $(".header_all").mouseout(function(){
+            $(".prev").hide();
+            $(".next").hide();
+        })
+		
+		if(tag_name_index=='index' && tag_name_userId<=0){
+			var aBtn=$(".imgBtn li");
+			aBtn.removeClass('hover').last().addClass('hover').trigger('click');
+			$("#example").attr('href','#example_video_'+(aBtn.length-1));
+			$(".imgList li").hide().last().show();
+			$(window).trigger('play');
+		}
+
+
+        setInterval(function() {
+			var i = $(".imgBtn").find('.hover').index(),
+                status = $("#example").attr('status');
+                
+				if( status != 'no'){
+					$("#example").attr('href','#example_video_'+i);
+				}
+
+				if((tag_name_index=='index' && i==2) || (tag_name_index=='student' && i==0)){
+					$(".btn_topa a").attr("href","/weekstar/index.php").html("了解更多详情，猛戳这里");
+				}else{
+					$(".btn_topa a").attr("href","/user/user_register.php").html("立即注册，和Ta一起51Talk").css({"color":"","background":""});
+				}
+        }, 200);
+        
+        //新网站切换
+        $("#switch_on_off").click(function(){
+            var isSwitch = getCookie('SWITCH_ON_OFF');
+            if( isSwitch == 'FALSE' ){
+                setCookie('SWITCH_ON_OFF','TRUE');
+            }
+            location.reload();
+        })
+    })
+</script> 
+<!--photoes tab-->
+ <!--<script type="text/javascript" src="scripts/jquery-1.9.1.min.js"></script>-->
+<script type="text/javascript">
+//品牌翻转
+var turn = function(target,time,opts){
+	target.find('a').hover(function(){
+		$(this).find('img').stop().animate(opts[0],time,function(){
+			$(this).hide().next().show();
+			$(this).next().animate(opts[1],time);
+		});
+	},function(){
+		$(this).find('.info').animate(opts[0],time,function(){
+			$(this).hide().prev().show();
+			$(this).prev().animate(opts[1],time);
+		});
+	});
+}
+var verticalOpts = [{'width':0},{'width':'203px'}];
+turn($('#vertical'),100,verticalOpts);
+var horizontalOpts = [{'height':0,'top':'120px'},{'height':'223px','top':0}];
+turn($('#horizontal'),100,horizontalOpts);
+</script>
+  
+</body>
+</html>

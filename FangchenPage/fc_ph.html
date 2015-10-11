@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>      
+      <meta charset="utf-8" />
+      <title>房车中国</title>
+      <meta name="description" content="房车" />
+      <meta name="author" content="陈雅迪，张恩桥" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+      <link href="css/index.css" type="text/css" rel="stylesheet">
+      <script src="js/index.js" type="text/javascript" charset="utf-8" language="javascript"></script>
+      <script src="js/jquery-1.4.2.js" type="text/javascript" charset="utf-8" language="javascript"></script>
+	  <script type="text/javascript">
+            $(document).ready(function() {
+                $(".nav li").mousemove(function() {
+                    $(this).find('ul').slideDown();
+                });
+                $(".nav li").mouseleave(function() {
+                    $(this).find('ul').slideUp();
+                });
+				//折叠导航
+				$(function(){
+					$(".div2").click(function(){ 
+						$(this).next("div").slideToggle("slow").siblings(".div3:visible").slideUp("slow");
+					});
+				});		
+						
+            });
+			
+      </script>
+     
+
+</head>
+<body>
+	<div id="header"><!--head begin-->
+    		<div id="header_wrap"><!--head_wrap begin-->
+    		<div class="logo">
+            	<img src="img/logo.png">
+                <span>房车中国由山西省房车协会.山西房车俱乐部主办</span>
+            </div>
+           <!--search begin-->
+            <div class="head_search">
+                <form method="Get" action="#" >
+                    <input type="hidden"  value="index"  name="c" />
+                    <input type="hidden"  value="search"  name="a" />
+            		<input type="text"  value="请输入搜索内容"  name="kw" onfocus="if(this.value=='请输入搜索内容')this.value='';" onblur="if(this.value=='')this.value='请输入搜索内容';" />
+                    <!--搜索指定栏目-->		
+                    <input type="hidden"  value="1"  name="catid" />
+                    <input type="submit"   value=""   />
+                </form>
+             </div>
+             <!--search end-->
+            <div class="head_login">
+                    <a href="">登录</a>
+                    <a href="">注册</a>
+        
+             </div>
+          
+        	
+        	<div class="tel"><span>400-800-8888</span></div>
+            <div class="clear"></div>
+    		</div><!--head_wrap end-->
+           	<div id="nav_wrap"><!--nav beign-->
+            	
+            	<ul class="nav">
+                	<li><a href="index.html" target="_blank">首页</a>
+                    </li>
+                    <li><a href="about.html" target="_blank">关于我们</a></li>
+                    <li><a href="news_policy.html">新闻资讯</a>
+                    	<ul class="sub_nav"> 
+                        <li><a href="news_policy.html">政策新闻</a></li> 
+                        <li><a href="news_info.html">信息通知</a></li> 
+                        
+                		</ul> 
+                    </li>
+                    <li><a href="fc_intro.html">房车世界</a>
+                    	<ul class="sub_nav"> 
+                        <li><a href="fc_intro.html">房车介绍</a></li> 
+                        <li><a href="fc_change.html">房车改装</a></li> 
+                        <li><a href="fc_travel.html">房车旅行</a></li> 
+                        <li><a href="fc_ph.html">房车摄影</a></li>
+                        <li><a href="fc_camp.html">房车营地</a></li> 
+                        <li><a href="fc_rent.html">房车租赁</a></li>
+                        <li><a href="fc_second.html">二手交易</a></li> 
+                       
+                		</ul> 
+                    </li>
+                    <li><a href="member.html" target="_blank" class="nav_t">会员秀</a>
+                    
+                    </li>
+                    <li><a href="fc_post.html" target="_blank" class="nav_t">房车论坛</a>
+                    
+                    </li>
+                    <li><a href="welfare.html" target="_blank" class="nav_t">公益展示</a>
+                    
+                    </li>
+                    <li><a href="consult.html" target="_blank" class="nav_t">在线咨询</a>
+                    
+                    </li>
+                </ul>
+                <div class="clear"></div>
+               
+            </div><!--nav end-->
+    </div><!--head end-->
+    <!--bodyer begin-->
+    <div id="bodyer">
+    	
+    		<!-- 代码 开始 -->
+              <div id="playBox">
+                <div class="pre"></div>
+                <div class="next"></div>
+                <div class="smalltitle">
+                  <ul>
+                    <li class="thistitle"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                </div>
+                <ul class="oUlplay">
+                   <li><a href="#" target="_blank"><img src="img/banner/1.jpg"/></a></li>
+                   <li><a href="#" target="_blank"><img src="img/banner/2.jpg"/></a></li>
+                   <li><a href="#" target="_blank"><img src="img/banner/4.jpg"/></a></li>
+                   <li><a href="#" target="_blank"><img src="img/banner/5.jpg"/></a></li>
+                   <li><a href="#" target="_blank"><img src="img/banner/6.jpg"/></a></li>
+                </ul>
+              </div>
+            <!-- 代码 结束 -->
+          	<div id="sub_left"><!--left begin-->
+                <div class="div1">
+                  <div class="div2">
+                   
+                      <a href="index.html"> 首页</a>
+                  </div>
+                 <div class="div3"> </div>
+                  <div class="div2">
+                    
+                     <a href="about.html#sub_right" target="_self">关于我们</a>
+                  </div>
+                 <div class="div3"> </div>
+                      
+                 
+                  <div class="div2">
+                    
+                    新闻资讯
+                  </div>
+                  <div class="div3">
+                      <ul>
+                        <li> <a href="news_policy.html#sub_right"  target="_self">政策新闻</a></li>
+                        <li>  <a href="news_info.html#sub_right"  target="_self">信息通知</a></li>
+                        
+                      </ul>
+                  </div>
+                  <div class="div2">
+                   
+                    房车世界
+                  </div>
+                  <div class="div3">
+                    <ul>
+                      	 <li><a href="fc_intro.html#sub_right"  target="_self">房车介绍</a></li> 
+                        <li><a href="fc_change.html#sub_right"  target="_self">房车改装</a></li> 
+                        <li><a href="fc_travel.html#sub_right"  target="_self">房车旅行</a></li> 
+                        <li><a href="fc_ph.html#sub_right"  target="_self">房车摄影</a></li>
+                        <li><a href="fc_camp.html#sub_right"  target="_self">房车营地</a></li> 
+                        <li><a href="fc_rent.html#sub_right"  target="_self">房车租赁</a></li>
+                        <li><a href="fc_second.html#sub_right"  target="_self">二手交易</a></li> 
+                    </ul>
+                  </div>
+                  <div class="div2">
+                    
+                    <a href="member.html#sub_right"  target="_self">会员秀</a>
+                  </div>
+                  <div class="div3"> </div>
+                   <div class="div2">
+                    
+                    <a href="fc_post.html#sub_right"  target="_self">房车论坛</a>
+                  </div>
+                  <div class="div3"> </div>
+                   <div class="div2">
+                    
+                    <a href="welfare.html#sub_right"  target="_self">公益展示</a>
+                  </div>
+                  <div class="div3"> </div>
+                   <div class="div2">
+                   
+                   <a href="consult.html#sub_right"  target="_self"> 在线咨询</a>
+                  </div>
+                  <div class="div3"> </div>
+                </div>
+           </div><!--left end-->
+           <div id="sub_right"><!--right begin-->
+           			<div id="sub-rightWrap">
+                    	<div class="fc_ph">
+                        	<a href="#" target="_blank"><img src="img/banner/1.jpg"/></a>
+                        </div>
+                        <div class="fc_ph">
+                        	<a href="#" target="_blank"><img src="img/banner/1.jpg"/></a>
+                        </div>
+                        <div class="fc_ph">
+                        	<a href="#" target="_blank"><img src="img/banner/1.jpg"/></a>
+                        </div>
+                        <div class="fc_ph">
+                        	<a href="#" target="_blank"><img src="img/banner/1.jpg"/></a>
+                        </div>
+                    </div>
+           </div><!--right end-->
+           <div class="clear"></div>       
+    </div><!--bodyer end-->
+    <div id="footer">
+    		<ul class="nav">
+                	<li><a href="index.html" target="_blank">首页</a>
+                    	<span>|</span>
+                    </li>
+                    <li><a href="about.html" target="_blank">关于我们</a><span>|</span></li>
+                    <li><a href="news_policy.html" target="_blank">新闻资讯</a>
+                    	<span>|</span>
+                    </li>
+                    <li><a href="fc_intro.html" target="_blank" class="nav_t">房车世界</a>
+                    	<span>|</span>
+                    </li>
+                    <li><a href="member.html" target="_blank" class="nav_t">会员秀</a>
+                    	<span>|</span>
+                    </li>
+                    <li><a href="fc_post.html" target="_blank" class="nav_t">房车论坛</a>
+                    	<span>|</span>
+                    </li>
+                    <li><a href="welfare.html" target="_blank" class="nav_t">公益展示</a>
+                    	<span>|</span>
+                    </li>
+                    <li><a href="consult.html" target="_blank" class="nav_t">在线咨询</a>
+                    	
+                    </li>
+            </ul>
+    </div>
+    
+  
+</body>
+</html>
